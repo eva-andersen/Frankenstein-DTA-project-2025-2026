@@ -49,7 +49,7 @@ h4 img.image {
 
 a{
     color:rgb(145, 14, 14);
-    cursor: url("/images/noun-feather-7561596_small.png"), pointer;
+    cursor: url("images/noun-feather-7561596_small.png"), pointer;
 }
 
 .list_pages{
