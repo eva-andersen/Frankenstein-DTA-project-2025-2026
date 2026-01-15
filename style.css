@@ -1,0 +1,161 @@
+/* general styling*/
+body {
+    background-color: rgba(246, 244, 229, 0.972);
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-left: 0;
+}
+
+.col {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.marginAdd {
+    display: none;
+}
+
+.mirador-canvas-nav {
+    display: none !important;
+}
+
+h4 {
+    border: 10px solid transparent;
+    background-color: rgb(145, 14, 14);
+    border-radius: 15px;
+}
+
+.curly {
+    font-family: "Apple Chancery";
+    font-size: 30px;
+}
+
+h4 img.image {
+    height: 45px;
+    width: auto;
+    vertical-align: middle;
+}
+
+
+a{
+    color:rgb(145, 14, 14);
+    cursor: url("/images/noun-feather-7561596_small.png"), pointer;
+}
+
+.list_pages{
+    list-style-type: circle;
+    list-style-position: inside;
+    text-indent: 2%;
+}
+
+.portret-l{
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+    border: 20px solid transparent;
+    border-image: url("images/frame-7204772_1280.png") 100;
+    color: black;
+}
+
+.portret-r{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+    border: 10px double  rgb(145, 14, 14);
+    border: 20px solid transparent;
+    border-image: url("images/frame-7204772_1280.png") 100;
+    color: black;
+}
+
+/* navbar styling */
+.navbar.bg-light {
+    background-color: rgb(145, 14, 14) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light:hover {
+    color: rgb(145, 14, 14);
+}
+
+.dropdown-item:hover {
+    color: rgb(145, 14, 14);
+    background-color:  rgb(145, 14, 14);
+}
+#attrib-photo { background-image: url('images/navbar_picture_standard.png'); display:block; height:100px; width:100px; background-size: cover;
+    text-indent: -9999px}
+
+#attrib-photo:hover {
+    background-image: url('images/navbar_picture_hover.png');}
+
+
+#navbarDropdownMenuLink {background-image: url('images/navbar_book_standard.png'); display:block; height:100px; width:100px; background-size: cover;
+    text-indent: -9999px}
+
+#navbarDropdownMenuLink:hover{background-image: url('images/navbar_book_hover.png');}
+
+.dropdown-menu {background-color: rgb(145, 14, 14);}
+
+.dropdown-item:hover {color: white;}
+
+footer {background-color: rgb(166, 163, 163); width:100%;}
+
+
+/* xml text styling*/
+.circled{
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 0 0.2em;
+}
+
+.indent {
+    display: block;
+    margin-left: 2em;
+}
+
+.overwritten {
+    color: rgb(169, 6, 155);
+    text-decoration: line-through;
+}
+
+.crossedout {
+    color: blue;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.legend {
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.legend-dot {
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.legend-dot.crossedout {
+    background-color: blue;
+}
+
+.legend-dot.overwritten {
+    background-color: rgb(169, 6, 155);
+}
